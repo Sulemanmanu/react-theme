@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import horizontolRoute from './common/layout/horizontol';
+import typographyRoute from './components/typography/typography';
+import dashBoardRoute from './common/home/dashBoard'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route exact path="/" component={dashBoardRoute} />
+          {/* <Route exact path="/horizontol" component={horizontolRoute} /> */}
+          {/* <Route exact path="/typography" component={typographyRoute} /> */}
+
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
