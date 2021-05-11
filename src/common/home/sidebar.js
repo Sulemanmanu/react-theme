@@ -67,7 +67,7 @@ export default class Sidebar extends Component {
         <li className="menu-title">Navigation</li>
 
         <li>
-         <a href="index.html">
+         <a href="/">
           <i className="mdi mdi-view-dashboard"></i>
           <span> Dashboard </span>
          </a>
@@ -80,47 +80,47 @@ export default class Sidebar extends Component {
           <span className="menu-arrow"></span>
          </a>
          <ul className="nav-second-level" aria-expanded="false">
-          <li><a href="layouts-horizontal.html">Horizontal</a></li>
-          <li><a href="layouts-sidebar-sm.html">Small Sidebar</a></li>
-          <li><a href="layouts-dark-sidebar.html">Dark Sidebar</a></li>
-          <li><a href="layouts-dark-topbar.html">Dark Topbar</a></li>
-          <li><a href="layouts-preloader.html">Preloader</a></li>
-          <li><a href="layouts-sidebar-collapsed.html">Sidebar Collapsed</a></li>
-          <li><a href="layouts-boxed.html">Boxed</a></li>
+          <li><Link to="/horizontal">Horizontal</Link></li>
+          <li><Link to="/smallsidebar">Small Sidebar</Link></li>
+          <li><Link to="/darksidebar">Dark Sidebar</Link></li>
+          <li><Link to="/darktopbar">Dark Topbar</Link></li>
+          <li><Link to="/preloader">Preloader</Link></li>
+          <li><Link to="sidebarcollapsed">Sidebar Collapsed</Link></li>
+          <li><Link to="boxed">Boxed</Link></li>
          </ul>
         </li>
 
         <li className="menu-title">Apps</li>
 
         <li>
-         <a href="apps-chat.html">
+         <Link to="/chat">
           <i className="mdi mdi-forum"></i>
           <span className="badge badge-purple float-right">New</span>
           <span> Chat </span>
-         </a>
+         </Link>
         </li>
 
         <li>
-         <a href="calendar.html">
+         <Link to="/calender">
           <i className="mdi mdi-calendar"></i>
           <span> Calendar </span>
-         </a>
+         </Link>
         </li>
 
         <li>
-         <a href="inbox.html">
+         <Link to="/inbox">
           <i className="mdi mdi-email"></i>
           <span> Mail </span>
-         </a>
+         </Link>
         </li>
 
         <li className="menu-title">Components</li>
 
         <li>
-         <a href="ui-typography.html">
+         <Link to="/typography">
           <i className="mdi mdi-format-font"></i>
           <span> Typography </span>
-         </a>
+         </Link>
         </li>
 
         <li>
@@ -130,22 +130,22 @@ export default class Sidebar extends Component {
           <span className="menu-arrow"></span>
          </a>
          <ul className="nav-second-level" aria-expanded="false">
-          <li><a href="ui-buttons.html">Buttons</a></li>
-          <li><a href="ui-cards.html">Cards</a></li>
-          <li><a href="ui-draggable-cards.html">Draggable Cards</a></li>
-          <li><a href="ui-checkbox-radio.html">Checkboxs-Radios</a></li>
-          <li><a href="ui-material-icons.html">Material Design</a></li>
-          <li><a href="ui-font-awesome-icons.html">Font Awesome 5</a></li>
-          <li><a href="ui-dripicons.html">Dripicons</a></li>
-          <li><a href="ui-feather-icons.html">Feather Icons</a></li>
-          <li><a href="ui-themify-icons.html">Themify Icons</a></li>
-          <li><a href="ui-modals.html">Modals</a></li>
-          <li><a href="ui-notification.html">Notification</a></li>
-          <li><a href="ui-range-slider.html">Range Slider</a></li>
-          <li><a href="ui-components.html">Components</a></li>
-          <li><a href="ui-sweetalert.html">Sweet Alert</a></li>
-          <li><a href="ui-treeview.html">Tree view</a></li>
-          <li><a href="ui-widgets.html">Widgets</a></li>
+          <li><Link to="/buttons">Buttons</Link></li>
+          <li><Link to="/cards">Cards</Link></li>
+          <li><Link to="/draggablecards">Draggable Cards</Link></li>
+          <li><Link to="/checkboxradio">Checkboxs-Radios</Link></li>
+          <li><Link to="/materialicons">Material Design</Link></li>
+          <li><Link to="/fontawesome">Font Awesome 5</Link></li>
+          <li><Link to="/dripicons">Dripicons</Link></li>
+          <li><Link to="/feathericons">Feather Icons</Link></li>
+          <li><Link to="/themifyicons">Themify Icons</Link></li>
+          <li><Link to="/modals">Modals</Link></li>
+          <li><Link to="/notification">Notification</Link></li>
+          <li><Link to="/rangeslider">Range Slider</Link></li>
+          <li><Link to="/components">Components</Link></li>
+          <li><Link to="/sweetalert">Sweet Alert</Link></li>
+          <li><Link to="/treeview">Tree view</Link></li>
+          <li><Link to="/widgets">Widgets</Link></li>
          </ul>
         </li>
 
@@ -156,13 +156,13 @@ export default class Sidebar extends Component {
           <span> Forms </span>
          </a>
          <ul className="nav-second-level" aria-expanded="false">
-          <li><a href="form-elements.html">General Elements</a></li>
-          <li><a href="form-advanced.html">Advanced Form</a></li>
-          <li><a href="form-validation.html">Form Validation</a></li>
+          <li><Link to="/formelements">General Elements</Link></li>
+          <li><Link to="/formadvanced">Advanced Form</Link></li>
+          <li><Link to="/formvalidation">Form Validation</Link></li>
           <li><Link to="/wizard">Form Wizard</Link></li>
-          <li><a href="form-fileupload.html">Form Uploads</a></li>
-          <li><a href="form-quilljs.html">Quilljs Editor</a></li>
-          <li><a href="form-xeditable.html">X-editable</a></li>
+          <li><Link to="/formfileupload">Form Uploads</Link></li>
+          <li><Link to="/formquilljs">Quilljs Editor</Link></li>
+          <li><Link to="/formxeditable">X-editable</Link></li>
          </ul>
         </li>
 
@@ -173,11 +173,11 @@ export default class Sidebar extends Component {
           <span className="menu-arrow"></span>
          </a>
          <ul className="nav-second-level" aria-expanded="false">
-          <li><a href="tables-basic.html">Basic Tables</a></li>
-          <li><a href="tables-datatable.html">Data Tables</a></li>
-          <li><a href="tables-responsive.html">Responsive Table</a></li>
-          <li><a href="tables-editable.html">Editable Table</a></li>
-          <li><a href="tables-tablesaw.html">Tablesaw Table</a></li>
+          <li><Link to="/tablesbasic">Basic Tables</Link></li>
+          <li><Link to="/tablesdatatable">Data Tables</Link></li>
+          <li><Link to="/tablesresponsive">Responsive Table</Link></li>
+          <li><Link to="/tableseditable">Editable Table</Link></li>
+          <li><Link to="/tablestablesaw">Tablesaw Table</Link></li>
          </ul>
         </li>
 
@@ -188,11 +188,11 @@ export default class Sidebar extends Component {
           <span className="menu-arrow"></span>
          </a>
          <ul className="nav-second-level" aria-expanded="false">
-          <li><a href="charts-flot.html">Flot Charts</a></li>
-          <li><a href="charts-morris.html">Morris Charts</a></li>
-          <li><a href="charts-chartist.html">Chartist Charts</a></li>
-          <li><a href="charts-chartjs.html">Chartjs Charts</a></li>
-          <li><a href="charts-other.html">Other Charts</a></li>
+          <li><Link to="/chartsflot">Flot Charts</Link></li>
+          <li><Link to="/chartsmorris">Morris Charts</Link></li>
+          <li><Link to="/chartschartist">Chartist Charts</Link></li>
+          <li><Link to="/chartschartjs">Chartjs Charts</Link></li>
+          <li><Link to="/chartsother">Other Charts</Link></li>
          </ul>
         </li>
 
@@ -204,14 +204,14 @@ export default class Sidebar extends Component {
           <span className="menu-arrow"></span>
          </a>
          <ul className="nav-second-level" aria-expanded="false">
-          <li><a href="pages-starter.html">Starter Page</a></li>
-          <li><a href="pages-login.html">Login</a></li>
-          <li><a href="pages-register.html">Register</a></li>
-          <li><a href="pages-recoverpw.html">Recover Password</a></li>
-          <li><a href="pages-lock-screen.html">Lock Screen</a></li>
-          <li><a href="pages-confirm-mail.html">Confirm Mail</a></li>
-          <li><a href="pages-404.html">Error 404</a></li>
-          <li><a href="pages-500.html">Error 500</a></li>
+          <li><Link to="/pagesstarter">Starter Page</Link></li>
+          <li><Link to="/pageslogin">Login</Link></li>
+          <li><Link to="/pagesregister">Register</Link></li>
+          <li><Link to="/pagesrecoverpw">Recover Password</Link></li>
+          <li><Link to="/pageslockscreen">Lock Screen</Link></li>
+          <li><Link to="/pagesconfirmmail">Confirm Mail</Link></li>
+          <li><Link to="/pages404">Error 404</Link></li>
+          <li><Link to="/pages500">Error 500</Link></li>
          </ul>
         </li>
 
@@ -222,21 +222,21 @@ export default class Sidebar extends Component {
           <span className="menu-arrow"></span>
          </a>
          <ul className="nav-second-level" aria-expanded="false">
-          <li><a href="extras-projects.html">Projects</a></li>
-          <li><a href="extras-tour.html">Tour</a></li>
-          <li><a href="extras-taskboard.html">Taskboard</a></li>
-          <li><a href="extras-taskdetail.html">Task Detail</a></li>
-          <li><a href="extras-profile.html">Profile</a></li>
-          <li><a href="extras-maps.html">Maps</a></li>
-          <li><a href="extras-contact.html">Contact list</a></li>
-          <li><a href="extras-pricing.html">Pricing</a></li>
-          <li><a href="extras-timeline.html">Timeline</a></li>
-          <li><a href="extras-invoice.html">Invoice</a></li>
-          <li><a href="extras-faq.html">FAQs</a></li>
-          <li><a href="extras-gallery.html">Gallery</a></li>
-          <li><a href="extras-email-templates.html">Email Templates</a></li>
-          <li><a href="extras-maintenance.html">Maintenance</a></li>
-          <li><a href="extras-comingsoon.html">Coming Soon</a></li>
+          <li><Link to="/extrasprojects">Projects</Link></li>
+          <li><Link to="/extrastour">Tour</Link></li>
+          <li><Link to="/extrastaskboard">Taskboard</Link></li>
+          <li><Link to="/extrastaskdetail">Task Detail</Link></li>
+          <li><Link to="/extrasprofile">Profile</Link></li>
+          <li><Link to="/extrasmaps">Maps</Link></li>
+          <li><Link to="/extrascontact">Contact list</Link></li>
+          <li><Link to="/extraspricing">Pricing</Link></li>
+          <li><Link to="/extrastimeline">Timeline</Link></li>
+          <li><Link to="/extrasinvoice">Invoice</Link></li>
+          <li><Link to="/extrasfaq">FAQs</Link></li>
+          <li><Link to="/extrasgallery">Gallery</Link></li>
+          <li><Link to="/extrasemail">Email Templates</Link></li>
+          <li><Link to="/extrasmaintenance">Maintenance</Link></li>
+          <li><Link to="/extrascomingsoon">Coming Soon</Link></li>
          </ul>
         </li>
 
@@ -278,7 +278,7 @@ export default class Sidebar extends Component {
     </div>
     {/* <!-- Left Sidebar End --> */}
    </div>
-            
-        )
+
+  )
  }
 }

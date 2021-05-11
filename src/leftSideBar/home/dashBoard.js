@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import Topbar from '../../../common/home/topBar'
-import Sidebar from '../../../common/home/sidebar'
-import Footer from '../../../common/home/footer'
-import RightSide from '../../../common/home/rightSide'
+import Topbar from '../../common/home/topBar'
+import Sidebar from '../../common/home/sidebar'
+import Footer from '../../common/home/footer'
+import RightSide from '../../common/home/rightSide'
+
 
 export default class Dashboard extends Component {
   render() {
@@ -11,8 +12,8 @@ export default class Dashboard extends Component {
 
 
         <div id="wrapper">
-          <Topbar />
-          <Sidebar />
+         <Topbar/>
+         <Sidebar/>
 
           {/* <!-- Left Sidebar End --> */}
 
@@ -506,10 +507,9 @@ export default class Dashboard extends Component {
           {/* <!-- ============================================================== -->
     <!-- End Page content -->
     <!-- ============================================================== --> */}
-          <Footer />
-
+<Footer/>
         </div>
-        <RightSide />
+        <RightSide/>
       </div>
     )
   }
