@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
 //Navigation ROUTE
@@ -101,6 +101,7 @@ import galleryRoute from './leftSideBar/components/extrapages/gallery'
 import EmailTempRoute from './leftSideBar/components/extrapages/emailT'
 import maintainenceRoute from './leftSideBar/components/extrapages/maintainence'
 import comingSoonRoute from './leftSideBar/components/extrapages/comingsoon'
+import Counter from './counter';
 //extra pages route end
 
 
@@ -141,6 +142,8 @@ import comingSoonRoute from './leftSideBar/components/extrapages/comingsoon'
 
 function App() {
   return (
+    <>
+    <Counter/>
     <Router>
 
       <div className="App">
@@ -242,6 +245,7 @@ function App() {
         </Switch>
       </div>
     </Router>
+    </>
   );
 }
 

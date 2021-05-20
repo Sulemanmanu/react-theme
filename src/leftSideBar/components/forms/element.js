@@ -36,7 +36,7 @@ export default class Element extends Component {
                <div className="form-group row">
                 <label className="col-md-2 col-form-label" for="simpleinput">Text</label>
                 <div className="col-md-10">
-                 <input type="text" id="simpleinput" className="form-control" value="Some text value..." />
+                 <input type="text" id="simpleinput" className="form-control" defaultValue="Some text value..." />
                 </div>
                </div>
                <div className="form-group row">
@@ -48,7 +48,7 @@ export default class Element extends Component {
                <div className="form-group row">
                 <label className="col-md-2 col-form-label" for="example-password">Password</label>
                 <div className="col-md-10">
-                 <input type="password" id="example-password" className="form-control" value="password" />
+                 <input type="password" id="example-password" className="form-control" defaultValue="password" />
                 </div>
                </div>
 
@@ -68,13 +68,13 @@ export default class Element extends Component {
                <div className="form-group row">
                 <label className="col-md-2 col-form-label">Readonly</label>
                 <div className="col-md-10">
-                 <input type="text" className="form-control" readonly="" value="Readonly value" />
+                 <input type="text" className="form-control" readonly="" defaultValue="Readonly value" />
                 </div>
                </div>
                <div className="form-group row">
                 <label className="col-md-2 col-form-label">Disabled</label>
                 <div className="col-md-10">
-                 <input type="text" className="form-control" disabled="" value="Disabled value" />
+                 <input type="text" className="form-control" disabled="" defaultValue="Disabled value" />
                 </div>
                </div>
 
@@ -82,7 +82,7 @@ export default class Element extends Component {
                <div className="form-group row">
                 <label className="col-md-2 col-form-label" for="example-static">Static control</label>
                 <div className="col-md-10">
-                 <input type="text" readonly className="form-control-plaintext" id="example-static" value="email@example.com" />
+                 <input type="text" readonly className="form-control-plaintext" id="example-static" defaultValue="email@example.com" />
                 </div>
                </div>
                <div className="form-group row">
@@ -180,7 +180,7 @@ export default class Element extends Component {
                <div className="form-group row">
                 <label className="col-md-2 col-form-label" for="example-color">Color</label>
                 <div className="col-md-10">
-                 <input className="form-control" type="color" name="color" value="#71b6f9" id="example-color" />
+                 <input className="form-control" type="color" name="color" defaultValue="#71b6f9" id="example-color" />
                 </div>
                </div>
 
@@ -216,9 +216,9 @@ export default class Element extends Component {
 
              <select className="custom-select mt-3">
               <option selected>Open this select menu</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
+              <option defaultValue="1">One</option>
+              <option defaultValue="2">Two</option>
+              <option defaultValue="3">Three</option>
              </select>
 
              <h4 className="header-title mt-5">Switches</h4>
@@ -449,7 +449,7 @@ export default class Element extends Component {
              <form className="form-inline">
               <div className="form-group">
                <label for="staticEmail2" className="sr-only">Email</label>
-               <input type="text" readonly className="form-control-plaintext" id="staticEmail2" value="email@example.com" />
+               <input type="text" readonly className="form-control-plaintext" id="staticEmail2" defaultValue="email@example.com" />
               </div>
               <div className="form-group mx-sm-3">
                <label for="inputPassword2" className="sr-only">Password</label>

@@ -55,20 +55,20 @@ export default class Wizard extends Component {
                   <div className="form-group row mb-3">
                    <label className="col-md-3 col-form-label" for="userName">User name</label>
                    <div className="col-md-9">
-                    <input type="text" className="form-control" id="userName" name="userName" value="Coderthemes" />
+                    <input type="text" className="form-control" id="userName" name="userName" defaultValue="Coderthemes" />
                    </div>
                   </div>
                   <div className="form-group row mb-3">
                    <label className="col-md-3 col-form-label" for="password"> Password</label>
                    <div className="col-md-9">
-                    <input type="password" id="password" name="password" className="form-control" value="123456789" />
+                    <input type="password" id="password" name="password" className="form-control" defaultValue="123456789" />
                    </div>
                   </div>
 
                   <div className="form-group row mb-3">
                    <label className="col-md-3 col-form-label" for="confirm">Re Password</label>
                    <div className="col-md-9">
-                    <input type="password" id="confirm" name="confirm" className="form-control" value="123456789" />
+                    <input type="password" id="confirm" name="confirm" className="form-control" defaultValue="123456789" />
                    </div>
                   </div>
                  </div>
@@ -81,20 +81,20 @@ export default class Wizard extends Component {
                   <div className="form-group row mb-3">
                    <label className="col-md-3 col-form-label" for="name"> First name</label>
                    <div className="col-md-9">
-                    <input type="text" id="name" name="name" className="form-control" value="Francis" />
+                    <input type="text" id="name" name="name" className="form-control" defaultValue="Francis" />
                    </div>
                   </div>
                   <div className="form-group row mb-3">
                    <label className="col-md-3 col-form-label" for="surname"> Last name</label>
                    <div className="col-md-9">
-                    <input type="text" id="surname" name="surname" className="form-control" value="Brinkman" />
+                    <input type="text" id="surname" name="surname" className="form-control" defaultValue="Brinkman" />
                    </div>
                   </div>
 
                   <div className="form-group row mb-3">
                    <label className="col-md-3 col-form-label" for="email">Email</label>
                    <div className="col-md-9">
-                    <input type="email" id="email" name="email" className="form-control" value="cory1979@hotmail.com" />
+                    <input type="email" id="email" name="email" className="form-control" defaultValue="cory1979@hotmail.com" />
                    </div>
                   </div>
                  </div>
@@ -175,20 +175,20 @@ export default class Wizard extends Component {
                  <div className="form-group row mb-3">
                   <label className="col-md-3 col-form-label" for="userName2">User name</label>
                   <div className="col-md-9">
-                   <input type="text" className="form-control" id="userName2" name="userName2" value="Coderthemes" />
+                   <input type="text" className="form-control" id="userName2" name="userName2" defaultValue="Coderthemes" />
                   </div>
                  </div>
                  <div className="form-group row mb-3">
                   <label className="col-md-3 col-form-label" for="password2"> Password</label>
                   <div className="col-md-9">
-                   <input type="password" id="password2" name="password2" className="form-control" value="123456789" />
+                   <input type="password" id="password2" name="password2" className="form-control" defaultValue="123456789" />
                   </div>
                  </div>
 
                  <div className="form-group row mb-3">
                   <label className="col-md-3 col-form-label" for="confirm2">Re Password</label>
                   <div className="col-md-9">
-                   <input type="password" id="confirm2" name="confirm2" className="form-control" value="123456789" />
+                   <input type="password" id="confirm2" name="confirm2" className="form-control" defaultValue="123456789" />
                   </div>
                  </div>
                 </div>
@@ -201,20 +201,20 @@ export default class Wizard extends Component {
                  <div className="form-group row mb-3">
                   <label className="col-md-3 col-form-label" for="name2"> First name</label>
                   <div className="col-md-9">
-                   <input type="text" id="name2" name="name2" className="form-control" value="Francis" />
+                   <input type="text" id="name2" name="name2" className="form-control" defaultValue="Francis" />
                   </div>
                  </div>
                  <div className="form-group row mb-3">
                   <label className="col-md-3 col-form-label" for="surname2"> Last name</label>
                   <div className="col-md-9">
-                   <input type="text" id="surname2" name="surname2" className="form-control" value="Brinkman" />
+                   <input type="text" id="surname2" name="surname2" className="form-control" defaultValue="Brinkman" />
                   </div>
                  </div>
 
                  <div className="form-group row mb-3">
                   <label className="col-md-3 col-form-label" for="email2">Email</label>
                   <div className="col-md-9">
-                   <input type="email" id="email2" name="email2" className="form-control" value="cory1979@hotmail.com" />
+                   <input type="email" id="email2" name="email2" className="form-control" defaultValue="cory1979@hotmail.com" />
                   </div>
                  </div>
                 </div>
@@ -243,12 +243,12 @@ export default class Wizard extends Component {
               </div>
 
               <div className="float-right">
-               <input type='button' className='btn btn-secondary button-next' name='next' value='Next' />
-               <input type='button' className='btn btn-secondary button-last' name='last' value='Last' />
+               <input type='button' className='btn btn-secondary button-next' name='next' defaultValue='Next' />
+               <input type='button' className='btn btn-secondary button-last' name='last' defaultValue='Last' />
               </div>
               <div className="float-left">
-               <input type='button' className='btn btn-secondary button-first' name='first' value='First' />
-               <input type='button' className='btn btn-secondary button-previous' name='previous' value='Previous' />
+               <input type='button' className='btn btn-secondary button-first' name='first' defaultValue='First' />
+               <input type='button' className='btn btn-secondary button-previous' name='previous' defaultValue='Previous' />
               </div>
 
               <div className="clearfix"></div>
@@ -306,20 +306,20 @@ export default class Wizard extends Component {
                   <div className="form-group row mb-3">
                    <label className="col-md-3 col-form-label" for="userName1">User name</label>
                    <div className="col-md-9">
-                    <input type="text" className="form-control" id="userName1" name="userName1" value="Coderthemes" />
+                    <input type="text" className="form-control" id="userName1" name="userName1" defaultValue="Coderthemes" />
                    </div>
                   </div>
                   <div className="form-group row mb-3">
                    <label className="col-md-3 col-form-label" for="password1"> Password</label>
                    <div className="col-md-9">
-                    <input type="password" id="password1" name="password1" className="form-control" value="123456789" />
+                    <input type="password" id="password1" name="password1" className="form-control" defaultValue="123456789" />
                    </div>
                   </div>
 
                   <div className="form-group row mb-3">
                    <label className="col-md-3 col-form-label" for="confirm1">Re Password</label>
                    <div className="col-md-9">
-                    <input type="password" id="confirm1" name="confirm1" className="form-control" value="123456789" />
+                    <input type="password" id="confirm1" name="confirm1" className="form-control" defaultValue="123456789" />
                    </div>
                   </div>
                  </div>
@@ -332,20 +332,20 @@ export default class Wizard extends Component {
                   <div className="form-group row mb-3">
                    <label className="col-md-3 col-form-label" for="name1"> First name</label>
                    <div className="col-md-9">
-                    <input type="text" id="name1" name="name1" className="form-control" value="Francis" />
+                    <input type="text" id="name1" name="name1" className="form-control" defaultValue="Francis" />
                    </div>
                   </div>
                   <div className="form-group row mb-3">
                    <label className="col-md-3 col-form-label" for="surname1"> Last name</label>
                    <div className="col-md-9">
-                    <input type="text" id="surname1" name="surname1" className="form-control" value="Brinkman" />
+                    <input type="text" id="surname1" name="surname1" className="form-control" defaultValue="Brinkman" />
                    </div>
                   </div>
 
                   <div className="form-group row mb-3">
                    <label className="col-md-3 col-form-label" for="email1">Email</label>
                    <div className="col-md-9">
-                    <input type="email" id="email1" name="email1" className="form-control" value="cory1979@hotmail.com" />
+                    <input type="email" id="email1" name="email1" className="form-control" defaultValue="cory1979@hotmail.com" />
                    </div>
                   </div>
                  </div>

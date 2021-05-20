@@ -31,16 +31,16 @@ export default class Calender extends Component {
                                                 </a>
                <div id="external-events" className="mt-3">
                 <p>Drag and drop your event or click in the calendar</p>
-                <div className="external-event bg-primary" data-className="bg-primary">
+                <div className="external-event bg-primary" data-class="bg-primary">
                  <i className="mdi mdi-checkbox-blank-circle mr-2 vertical-middle"></i>New Theme Release
                                                     </div>
-                <div className="external-event bg-pink" data-className="bg-pink">
+                <div className="external-event bg-pink" data-class="bg-pink">
                  <i className="mdi mdi-checkbox-blank-circle mr-2 vertical-middle"></i>My Event
                                                     </div>
-                <div className="external-event bg-warning" data-className="bg-warning">
+                <div className="external-event bg-warning" data-class="bg-warning">
                  <i className="mdi mdi-checkbox-blank-circle mr-2 vertical-middle"></i>Meet manager
                                                     </div>
-                <div className="external-event bg-purple" data-className="bg-purple">
+                <div className="external-event bg-purple" data-class="bg-purple">
                  <i className="mdi mdi-checkbox-blank-circle mr-2 vertical-middle"></i>Create New theme
                                                     </div>
                </div>
@@ -96,13 +96,13 @@ export default class Calender extends Component {
                   <div className="col-md-6">
                    <label className="control-label">Choose Category Color</label>
                    <select className="form-control form-white" data-placeholder="Choose a color..." name="category-color">
-                    <option value="success">Success</option>
-                    <option value="danger">Danger</option>
-                    <option value="info">Info</option>
-                    <option value="pink">Pink</option>
-                    <option value="primary">Primary</option>
-                    <option value="warning">Warning</option>
-                    <option value="inverse">Inverse</option>
+                    <option defaultValue="success">Success</option>
+                    <option defaultValue="danger">Danger</option>
+                    <option defaultValue="info">Info</option>
+                    <option defaultValue="pink">Pink</option>
+                    <option defaultValue="primary">Primary</option>
+                    <option defaultValue="warning">Warning</option>
+                    <option defaultValue="inverse">Inverse</option>
                    </select>
                   </div>
                  </div>

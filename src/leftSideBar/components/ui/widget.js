@@ -43,7 +43,7 @@ export default class Widget extends Component {
            <div className="widget-chart-1">
             <div className="widget-chart-box-1 float-left" dir="ltr">
              <input data-plugin="knob" data-width="80" data-height="80" data-fgColor="#f05050 "
-              data-bgColor="#F9B9B9" value="58"
+              data-bgColor="#F9B9B9"  defaultValue="58"
               data-skin="tron" data-angleOffset="180" data-readOnly={true}
               data-thickness=".15" />
             </div>
@@ -79,7 +79,7 @@ export default class Widget extends Component {
            <div className="widget-chart-1">
             <div className="widget-chart-box-1 float-left" dir="ltr">
              <input data-plugin="knob" data-width="80" data-height="80" data-fgColor="#ffbd4a"
-              data-bgColor="#FFE6BA" value="80"
+              data-bgColor="#FFE6BA" defaultValue="80"
               data-skin="tron" data-angleOffset="180" data-readOnly={true}
               data-thickness=".15" />
             </div>
@@ -115,7 +115,7 @@ export default class Widget extends Component {
            <div className="widget-chart-1">
             <div className="widget-chart-box-1 float-left" dir="ltr">
              <input data-plugin="knob" data-width="80" data-height="80" data-fgColor="#35b8e0 "
-              data-bgColor="#B8E6F4" value="77"
+              data-bgColor="#B8E6F4" defaultValue="77"
               data-skin="tron" data-angleOffset="180" data-readOnly={true}
               data-thickness=".15" />
             </div>
@@ -152,7 +152,7 @@ export default class Widget extends Component {
            <div className="widget-chart-1">
             <div className="widget-chart-box-1 float-left" dir="ltr">
              <input data-plugin="knob" data-width="80" data-height="80" data-fgColor="#10c469"
-              data-bgColor="#AAE2C6" value="65"
+              data-bgColor="#AAE2C6" defaultValue="65"
               data-skin="tron" data-angleOffset="180" data-readOnly={true}
               data-thickness=".15" />
             </div>

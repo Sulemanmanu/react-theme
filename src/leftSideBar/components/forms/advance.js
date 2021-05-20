@@ -44,7 +44,7 @@ export default  class Advance extends Component {
            Just add <code>data-role="tagsinput"</code> to your input field to automatically change it to a tags input field.
                                     </p>
           <div  className="tags-default">
-           <input type="text" value="Amsterdam,Washington,Sydney" data-role="tagsinput" placeholder="add tags" />
+           <input type="text" defaultValue="Amsterdam,Washington,Sydney" data-role="tagsinput" placeholder="add tags" />
           </div>
 
           <h5  className="mt-4">True multi value</h5>
@@ -55,9 +55,9 @@ export default  class Advance extends Component {
                                     </p>
           <div  className="mb-0">
            <select multiple data-role="tagsinput">
-            <option value="Amsterdam">Amsterdam</option>
-            <option value="Washington">Washington</option>
-            <option value="Sydney">Sydney</option>
+            <option defaultValue="Amsterdam">Amsterdam</option>
+            <option defaultValue="Washington">Washington</option>
+            <option defaultValue="Sydney">Sydney</option>
            </select>
           </div>
          </div>
@@ -91,15 +91,15 @@ export default  class Advance extends Component {
                                     </p>
 
           <div  className="switchery-demo">
-           <input type="checkbox" checked data-plugin="switchery" data-color="#00b19d" />
-           <input type="checkbox" checked data-plugin="switchery" data-color="#ffaa00" />
-           <input type="checkbox" checked data-plugin="switchery" data-color="#3bafda" />
-           <input type="checkbox" checked data-plugin="switchery" data-color="#3DDCF7" />
-           <input type="checkbox" checked data-plugin="switchery" data-color="#7266ba" />
-           <input type="checkbox" checked data-plugin="switchery" data-color="#f76397" />
-           <input type="checkbox" checked data-plugin="switchery" data-color="#4c5667" />
-           <input type="checkbox" checked data-plugin="switchery" data-color="#98a6ad" />
-           <input type="checkbox" checked data-plugin="switchery" data-color="#ef5350" />
+           <input type="checkbox" defaultChecked data-plugin="switchery" data-color="#00b19d" />
+           <input type="checkbox" defaultChecked data-plugin="switchery" data-color="#ffaa00" />
+           <input type="checkbox" defaultChecked data-plugin="switchery" data-color="#3bafda" />
+           <input type="checkbox" defaultChecked data-plugin="switchery" data-color="#3DDCF7" />
+           <input type="checkbox" defaultChecked data-plugin="switchery" data-color="#7266ba" />
+           <input type="checkbox" defaultChecked data-plugin="switchery" data-color="#f76397" />
+           <input type="checkbox" defaultChecked data-plugin="switchery" data-color="#4c5667" />
+           <input type="checkbox" defaultChecked data-plugin="switchery" data-color="#98a6ad" />
+           <input type="checkbox" defaultChecked data-plugin="switchery" data-color="#ef5350" />
           </div>
 
           <h5  className="mt-4">Sizes & Secondary color</h5>
@@ -111,9 +111,9 @@ export default  class Advance extends Component {
                                     </p>
 
           <div  className="">
-           <input type="checkbox" checked data-plugin="switchery" data-color="#00b19d" data-size="small" />
-           <input type="checkbox" checked data-plugin="switchery" data-color="#3DDCF7" />
-           <input type="checkbox" checked data-plugin="switchery" data-color="#4c5667" data-size="large" />
+           <input type="checkbox" defaultChecked data-plugin="switchery" data-color="#00b19d" data-size="small" />
+           <input type="checkbox" defaultChecked data-plugin="switchery" data-color="#3DDCF7" />
+           <input type="checkbox" defaultChecked data-plugin="switchery" data-color="#4c5667" data-size="large" />
            <input type="checkbox" data-plugin="switchery" data-color="#1AB394" data-secondary-color="#ED5565" />
            <input type="checkbox" data-plugin="switchery" data-color="#fb6d9d" data-secondary-color="#7266ba" />
           </div>
@@ -212,241 +212,241 @@ export default  class Advance extends Component {
                                     </p>
 
           <select name="country"  className="multi-select" multiple="" id="my_multi_select3" >
-           <option value="AF">Afghanistan</option>
-           <option value="AL">Albania</option>
-           <option value="DZ">Algeria</option>
-           <option value="AS">American Samoa</option>
-           <option value="AD">Andorra</option>
-           <option value="AO">Angola</option>
-           <option value="AI">Anguilla</option>
-           <option value="AQ">Antarctica</option>
-           <option value="AR">Argentina</option>
-           <option value="AM">Armenia</option>
-           <option value="AW">Aruba</option>
-           <option value="AU">Australia</option>
-           <option value="AT">Austria</option>
-           <option value="AZ">Azerbaijan</option>
-           <option value="BS">Bahamas</option>
-           <option value="BH">Bahrain</option>
-           <option value="BD">Bangladesh</option>
-           <option value="BB">Barbados</option>
-           <option value="BY">Belarus</option>
-           <option value="BE">Belgium</option>
-           <option value="BZ">Belize</option>
-           <option value="BJ">Benin</option>
-           <option value="BM">Bermuda</option>
-           <option value="BT">Bhutan</option>
-           <option value="BO">Bolivia</option>
-           <option value="BA">Bosnia and Herzegowina</option>
-           <option value="BW">Botswana</option>
-           <option value="BV">Bouvet Island</option>
-           <option value="BR">Brazil</option>
-           <option value="IO">British Indian Ocean Territory</option>
-           <option value="BN">Brunei Darussalam</option>
-           <option value="BG">Bulgaria</option>
-           <option value="BF">Burkina Faso</option>
-           <option value="BI">Burundi</option>
-           <option value="KH">Cambodia</option>
-           <option value="CM">Cameroon</option>
-           <option value="CA">Canada</option>
-           <option value="CV">Cape Verde</option>
-           <option value="KY">Cayman Islands</option>
-           <option value="CF">Central African Republic</option>
-           <option value="TD">Chad</option>
-           <option value="CL">Chile</option>
-           <option value="CN">China</option>
-           <option value="CX">Christmas Island</option>
-           <option value="CC">Cocos (Keeling) Islands</option>
-           <option value="CO">Colombia</option>
-           <option value="KM">Comoros</option>
-           <option value="CG">Congo</option>
-           <option value="CD">Congo, the Democratic Republic of the</option>
-           <option value="CK">Cook Islands</option>
-           <option value="CR">Costa Rica</option>
-           <option value="CI">Cote d'Ivoire</option>
-           <option value="HR">Croatia (Hrvatska)</option>
-           <option value="CU">Cuba</option>
-           <option value="CY">Cyprus</option>
-           <option value="CZ">Czech Republic</option>
-           <option value="DK">Denmark</option>
-           <option value="DJ">Djibouti</option>
-           <option value="DM">Dominica</option>
-           <option value="DO">Dominican Republic</option>
-           <option value="EC">Ecuador</option>
-           <option value="EG">Egypt</option>
-           <option value="SV">El Salvador</option>
-           <option value="GQ">Equatorial Guinea</option>
-           <option value="ER">Eritrea</option>
-           <option value="EE">Estonia</option>
-           <option value="ET">Ethiopia</option>
-           <option value="FK">Falkland Islands (Malvinas)</option>
-           <option value="FO">Faroe Islands</option>
-           <option value="FJ">Fiji</option>
-           <option value="FI">Finland</option>
-           <option value="FR">France</option>
-           <option value="GF">French Guiana</option>
-           <option value="PF">French Polynesia</option>
-           <option value="TF">French Southern Territories</option>
-           <option value="GA">Gabon</option>
-           <option value="GM">Gambia</option>
-           <option value="GE">Georgia</option>
-           <option value="DE">Germany</option>
-           <option value="GH">Ghana</option>
-           <option value="GI">Gibraltar</option>
-           <option value="GR">Greece</option>
-           <option value="GL">Greenland</option>
-           <option value="GD">Grenada</option>
-           <option value="GP">Guadeloupe</option>
-           <option value="GU">Guam</option>
-           <option value="GT">Guatemala</option>
-           <option value="GN">Guinea</option>
-           <option value="GW">Guinea-Bissau</option>
-           <option value="GY">Guyana</option>
-           <option value="HT">Haiti</option>
-           <option value="HM">Heard and Mc Donald Islands</option>
-           <option value="VA">Holy See (Vatican City State)</option>
-           <option value="HN">Honduras</option>
-           <option value="HK">Hong Kong</option>
-           <option value="HU">Hungary</option>
-           <option value="IS">Iceland</option>
-           <option value="IN">India</option>
-           <option value="ID">Indonesia</option>
-           <option value="IR">Iran (Islamic Republic of)</option>
-           <option value="IQ">Iraq</option>
-           <option value="IE">Ireland</option>
-           <option value="IL">Israel</option>
-           <option value="IT">Italy</option>
-           <option value="JM">Jamaica</option>
-           <option value="JP">Japan</option>
-           <option value="JO">Jordan</option>
-           <option value="KZ">Kazakhstan</option>
-           <option value="KE">Kenya</option>
-           <option value="KI">Kiribati</option>
-           <option value="KP">Korea, Democratic People's Republic of</option>
-           <option value="KR">Korea, Republic of</option>
-           <option value="KW">Kuwait</option>
-           <option value="KG">Kyrgyzstan</option>
-           <option value="LA">Lao People's Democratic Republic</option>
-           <option value="LV">Latvia</option>
-           <option value="LB">Lebanon</option>
-           <option value="LS">Lesotho</option>
-           <option value="LR">Liberia</option>
-           <option value="LY">Libyan Arab Jamahiriya</option>
-           <option value="LI">Liechtenstein</option>
-           <option value="LT">Lithuania</option>
-           <option value="LU">Luxembourg</option>
-           <option value="MO">Macau</option>
-           <option value="MK">Macedonia, The Former Yugoslav Republic of</option>
-           <option value="MG">Madagascar</option>
-           <option value="MW">Malawi</option>
-           <option value="MY">Malaysia</option>
-           <option value="MV">Maldives</option>
-           <option value="ML">Mali</option>
-           <option value="MT">Malta</option>
-           <option value="MH">Marshall Islands</option>
-           <option value="MQ">Martinique</option>
-           <option value="MR">Mauritania</option>
-           <option value="MU">Mauritius</option>
-           <option value="YT">Mayotte</option>
-           <option value="MX">Mexico</option>
-           <option value="FM">Micronesia, Federated States of</option>
-           <option value="MD">Moldova, Republic of</option>
-           <option value="MC">Monaco</option>
-           <option value="MN">Mongolia</option>
-           <option value="MS">Montserrat</option>
-           <option value="MA">Morocco</option>
-           <option value="MZ">Mozambique</option>
-           <option value="MM">Myanmar</option>
-           <option value="NA">Namibia</option>
-           <option value="NR">Nauru</option>
-           <option value="NP">Nepal</option>
-           <option value="NL">Netherlands</option>
-           <option value="AN">Netherlands Antilles</option>
-           <option value="NC">New Caledonia</option>
-           <option value="NZ">New Zealand</option>
-           <option value="NI">Nicaragua</option>
-           <option value="NE">Niger</option>
-           <option value="NG">Nigeria</option>
-           <option value="NU">Niue</option>
-           <option value="NF">Norfolk Island</option>
-           <option value="MP">Northern Mariana Islands</option>
-           <option value="NO">Norway</option>
-           <option value="OM">Oman</option>
-           <option value="PK">Pakistan</option>
-           <option value="PW">Palau</option>
-           <option value="PA">Panama</option>
-           <option value="PG">Papua New Guinea</option>
-           <option value="PY">Paraguay</option>
-           <option value="PE">Peru</option>
-           <option value="PH">Philippines</option>
-           <option value="PN">Pitcairn</option>
-           <option value="PL">Poland</option>
-           <option value="PT">Portugal</option>
-           <option value="PR">Puerto Rico</option>
-           <option value="QA">Qatar</option>
-           <option value="RE">Reunion</option>
-           <option value="RO">Romania</option>
-           <option value="RU">Russian Federation</option>
-           <option value="RW">Rwanda</option>
-           <option value="KN">Saint Kitts and Nevis</option>
-           <option value="LC">Saint LUCIA</option>
-           <option value="VC">Saint Vincent and the Grenadines</option>
-           <option value="WS">Samoa</option>
-           <option value="SM">San Marino</option>
-           <option value="ST">Sao Tome and Principe</option>
-           <option value="SA">Saudi Arabia</option>
-           <option value="SN">Senegal</option>
-           <option value="SC">Seychelles</option>
-           <option value="SL">Sierra Leone</option>
-           <option value="SG">Singapore</option>
-           <option value="SK">Slovakia (Slovak Republic)</option>
-           <option value="SI">Slovenia</option>
-           <option value="SB">Solomon Islands</option>
-           <option value="SO">Somalia</option>
-           <option value="ZA">South Africa</option>
-           <option value="GS">South Georgia and the South Sandwich Islands</option>
-           <option value="ES">Spain</option>
-           <option value="LK">Sri Lanka</option>
-           <option value="SH">St. Helena</option>
-           <option value="PM">St. Pierre and Miquelon</option>
-           <option value="SD">Sudan</option>
-           <option value="SR">Suriname</option>
-           <option value="SJ">Svalbard and Jan Mayen Islands</option>
-           <option value="SZ">Swaziland</option>
-           <option value="SE">Sweden</option>
-           <option value="CH">Switzerland</option>
-           <option value="SY">Syrian Arab Republic</option>
-           <option value="TW">Taiwan, Province of China</option>
-           <option value="TJ">Tajikistan</option>
-           <option value="TZ">Tanzania, United Republic of</option>
-           <option value="TH">Thailand</option>
-           <option value="TG">Togo</option>
-           <option value="TK">Tokelau</option>
-           <option value="TO">Tonga</option>
-           <option value="TT">Trinidad and Tobago</option>
-           <option value="TN">Tunisia</option>
-           <option value="TR">Turkey</option>
-           <option value="TM">Turkmenistan</option>
-           <option value="TC">Turks and Caicos Islands</option>
-           <option value="TV">Tuvalu</option>
-           <option value="UG">Uganda</option>
-           <option value="UA">Ukraine</option>
-           <option value="AE">United Arab Emirates</option>
-           <option value="GB">United Kingdom</option>
-           <option value="US">United States</option>
-           <option value="UM">United States Minor Outlying Islands</option>
-           <option value="UY">Uruguay</option>
-           <option value="UZ">Uzbekistan</option>
-           <option value="VU">Vanuatu</option>
-           <option value="VE">Venezuela</option>
-           <option value="VN">Viet Nam</option>
-           <option value="VG">Virgin Islands (British)</option>
-           <option value="VI">Virgin Islands (U.S.)</option>
-           <option value="WF">Wallis and Futuna Islands</option>
-           <option value="EH">Western Sahara</option>
-           <option value="YE">Yemen</option>
-           <option value="ZM">Zambia</option>
-           <option value="ZW">Zimbabwe</option>
+           <option defaultValue="AF">Afghanistan</option>
+           <option defaultValue="AL">Albania</option>
+           <option defaultValue="DZ">Algeria</option>
+           <option defaultValue="AS">American Samoa</option>
+           <option defaultValue="AD">Andorra</option>
+           <option defaultValue="AO">Angola</option>
+           <option defaultValue="AI">Anguilla</option>
+           <option defaultValue="AQ">Antarctica</option>
+           <option defaultValue="AR">Argentina</option>
+           <option defaultValue="AM">Armenia</option>
+           <option defaultValue="AW">Aruba</option>
+           <option defaultValue="AU">Australia</option>
+           <option defaultValue="AT">Austria</option>
+           <option defaultValue="AZ">Azerbaijan</option>
+           <option defaultValue="BS">Bahamas</option>
+           <option defaultValue="BH">Bahrain</option>
+           <option defaultValue="BD">Bangladesh</option>
+           <option defaultValue="BB">Barbados</option>
+           <option defaultValue="BY">Belarus</option>
+           <option defaultValue="BE">Belgium</option>
+           <option defaultValue="BZ">Belize</option>
+           <option defaultValue="BJ">Benin</option>
+           <option defaultValue="BM">Bermuda</option>
+           <option defaultValue="BT">Bhutan</option>
+           <option defaultValue="BO">Bolivia</option>
+           <option defaultValue="BA">Bosnia and Herzegowina</option>
+           <option defaultValue="BW">Botswana</option>
+           <option defaultValue="BV">Bouvet Island</option>
+           <option defaultValue="BR">Brazil</option>
+           <option defaultValue="IO">British Indian Ocean Territory</option>
+           <option defaultValue="BN">Brunei Darussalam</option>
+           <option defaultValue="BG">Bulgaria</option>
+           <option defaultValue="BF">Burkina Faso</option>
+           <option defaultValue="BI">Burundi</option>
+           <option defaultValue="KH">Cambodia</option>
+           <option defaultValue="CM">Cameroon</option>
+           <option defaultValue="CA">Canada</option>
+           <option defaultValue="CV">Cape Verde</option>
+           <option defaultValue="KY">Cayman Islands</option>
+           <option defaultValue="CF">Central African Republic</option>
+           <option defaultValue="TD">Chad</option>
+           <option defaultValue="CL">Chile</option>
+           <option defaultValue="CN">China</option>
+           <option defaultValue="CX">Christmas Island</option>
+           <option defaultValue="CC">Cocos (Keeling) Islands</option>
+           <option defaultValue="CO">Colombia</option>
+           <option defaultValue="KM">Comoros</option>
+           <option defaultValue="CG">Congo</option>
+           <option defaultValue="CD">Congo, the Democratic Republic of the</option>
+           <option defaultValue="CK">Cook Islands</option>
+           <option defaultValue="CR">Costa Rica</option>
+           <option defaultValue="CI">Cote d'Ivoire</option>
+           <option defaultValue="HR">Croatia (Hrvatska)</option>
+           <option defaultValue="CU">Cuba</option>
+           <option defaultValue="CY">Cyprus</option>
+           <option defaultValue="CZ">Czech Republic</option>
+           <option defaultValue="DK">Denmark</option>
+           <option defaultValue="DJ">Djibouti</option>
+           <option defaultValue="DM">Dominica</option>
+           <option defaultValue="DO">Dominican Republic</option>
+           <option defaultValue="EC">Ecuador</option>
+           <option defaultValue="EG">Egypt</option>
+           <option defaultValue="SV">El Salvador</option>
+           <option defaultValue="GQ">Equatorial Guinea</option>
+           <option defaultValue="ER">Eritrea</option>
+           <option defaultValue="EE">Estonia</option>
+           <option defaultValue="ET">Ethiopia</option>
+           <option defaultValue="FK">Falkland Islands (Malvinas)</option>
+           <option defaultValue="FO">Faroe Islands</option>
+           <option defaultValue="FJ">Fiji</option>
+           <option defaultValue="FI">Finland</option>
+           <option defaultValue="FR">France</option>
+           <option defaultValue="GF">French Guiana</option>
+           <option defaultValue="PF">French Polynesia</option>
+           <option defaultValue="TF">French Southern Territories</option>
+           <option defaultValue="GA">Gabon</option>
+           <option defaultValue="GM">Gambia</option>
+           <option defaultValue="GE">Georgia</option>
+           <option defaultValue="DE">Germany</option>
+           <option defaultValue="GH">Ghana</option>
+           <option defaultValue="GI">Gibraltar</option>
+           <option defaultValue="GR">Greece</option>
+           <option defaultValue="GL">Greenland</option>
+           <option defaultValue="GD">Grenada</option>
+           <option defaultValue="GP">Guadeloupe</option>
+           <option defaultValue="GU">Guam</option>
+           <option defaultValue="GT">Guatemala</option>
+           <option defaultValue="GN">Guinea</option>
+           <option defaultValue="GW">Guinea-Bissau</option>
+           <option defaultValue="GY">Guyana</option>
+           <option defaultValue="HT">Haiti</option>
+           <option defaultValue="HM">Heard and Mc Donald Islands</option>
+           <option defaultValue="VA">Holy See (Vatican City State)</option>
+           <option defaultValue="HN">Honduras</option>
+           <option defaultValue="HK">Hong Kong</option>
+           <option defaultValue="HU">Hungary</option>
+           <option defaultValue="IS">Iceland</option>
+           <option defaultValue="IN">India</option>
+           <option defaultValue="ID">Indonesia</option>
+           <option defaultValue="IR">Iran (Islamic Republic of)</option>
+           <option defaultValue="IQ">Iraq</option>
+           <option defaultValue="IE">Ireland</option>
+           <option defaultValue="IL">Israel</option>
+           <option defaultValue="IT">Italy</option>
+           <option defaultValue="JM">Jamaica</option>
+           <option defaultValue="JP">Japan</option>
+           <option defaultValue="JO">Jordan</option>
+           <option defaultValue="KZ">Kazakhstan</option>
+           <option defaultValue="KE">Kenya</option>
+           <option defaultValue="KI">Kiribati</option>
+           <option defaultValue="KP">Korea, Democratic People's Republic of</option>
+           <option defaultValue="KR">Korea, Republic of</option>
+           <option defaultValue="KW">Kuwait</option>
+           <option defaultValue="KG">Kyrgyzstan</option>
+           <option defaultValue="LA">Lao People's Democratic Republic</option>
+           <option defaultValue="LV">Latvia</option>
+           <option defaultValue="LB">Lebanon</option>
+           <option defaultValue="LS">Lesotho</option>
+           <option defaultValue="LR">Liberia</option>
+           <option defaultValue="LY">Libyan Arab Jamahiriya</option>
+           <option defaultValue="LI">Liechtenstein</option>
+           <option defaultValue="LT">Lithuania</option>
+           <option defaultValue="LU">Luxembourg</option>
+           <option defaultValue="MO">Macau</option>
+           <option defaultValue="MK">Macedonia, The Former Yugoslav Republic of</option>
+           <option defaultValue="MG">Madagascar</option>
+           <option defaultValue="MW">Malawi</option>
+           <option defaultValue="MY">Malaysia</option>
+           <option defaultValue="MV">Maldives</option>
+           <option defaultValue="ML">Mali</option>
+           <option defaultValue="MT">Malta</option>
+           <option defaultValue="MH">Marshall Islands</option>
+           <option defaultValue="MQ">Martinique</option>
+           <option defaultValue="MR">Mauritania</option>
+           <option defaultValue="MU">Mauritius</option>
+           <option defaultValue="YT">Mayotte</option>
+           <option defaultValue="MX">Mexico</option>
+           <option defaultValue="FM">Micronesia, Federated States of</option>
+           <option defaultValue="MD">Moldova, Republic of</option>
+           <option defaultValue="MC">Monaco</option>
+           <option defaultValue="MN">Mongolia</option>
+           <option defaultValue="MS">Montserrat</option>
+           <option defaultValue="MA">Morocco</option>
+           <option defaultValue="MZ">Mozambique</option>
+           <option defaultValue="MM">Myanmar</option>
+           <option defaultValue="NA">Namibia</option>
+           <option defaultValue="NR">Nauru</option>
+           <option defaultValue="NP">Nepal</option>
+           <option defaultValue="NL">Netherlands</option>
+           <option defaultValue="AN">Netherlands Antilles</option>
+           <option defaultValue="NC">New Caledonia</option>
+           <option defaultValue="NZ">New Zealand</option>
+           <option defaultValue="NI">Nicaragua</option>
+           <option defaultValue="NE">Niger</option>
+           <option defaultValue="NG">Nigeria</option>
+           <option defaultValue="NU">Niue</option>
+           <option defaultValue="NF">Norfolk Island</option>
+           <option defaultValue="MP">Northern Mariana Islands</option>
+           <option defaultValue="NO">Norway</option>
+           <option defaultValue="OM">Oman</option>
+           <option defaultValue="PK">Pakistan</option>
+           <option defaultValue="PW">Palau</option>
+           <option defaultValue="PA">Panama</option>
+           <option defaultValue="PG">Papua New Guinea</option>
+           <option defaultValue="PY">Paraguay</option>
+           <option defaultValue="PE">Peru</option>
+           <option defaultValue="PH">Philippines</option>
+           <option defaultValue="PN">Pitcairn</option>
+           <option defaultValue="PL">Poland</option>
+           <option defaultValue="PT">Portugal</option>
+           <option defaultValue="PR">Puerto Rico</option>
+           <option defaultValue="QA">Qatar</option>
+           <option defaultValue="RE">Reunion</option>
+           <option defaultValue="RO">Romania</option>
+           <option defaultValue="RU">Russian Federation</option>
+           <option defaultValue="RW">Rwanda</option>
+           <option defaultValue="KN">Saint Kitts and Nevis</option>
+           <option defaultValue="LC">Saint LUCIA</option>
+           <option defaultValue="VC">Saint Vincent and the Grenadines</option>
+           <option defaultValue="WS">Samoa</option>
+           <option defaultValue="SM">San Marino</option>
+           <option defaultValue="ST">Sao Tome and Principe</option>
+           <option defaultValue="SA">Saudi Arabia</option>
+           <option defaultValue="SN">Senegal</option>
+           <option defaultValue="SC">Seychelles</option>
+           <option defaultValue="SL">Sierra Leone</option>
+           <option defaultValue="SG">Singapore</option>
+           <option defaultValue="SK">Slovakia (Slovak Republic)</option>
+           <option defaultValue="SI">Slovenia</option>
+           <option defaultValue="SB">Solomon Islands</option>
+           <option defaultValue="SO">Somalia</option>
+           <option defaultValue="ZA">South Africa</option>
+           <option defaultValue="GS">South Georgia and the South Sandwich Islands</option>
+           <option defaultValue="ES">Spain</option>
+           <option defaultValue="LK">Sri Lanka</option>
+           <option defaultValue="SH">St. Helena</option>
+           <option defaultValue="PM">St. Pierre and Miquelon</option>
+           <option defaultValue="SD">Sudan</option>
+           <option defaultValue="SR">Suriname</option>
+           <option defaultValue="SJ">Svalbard and Jan Mayen Islands</option>
+           <option defaultValue="SZ">Swaziland</option>
+           <option defaultValue="SE">Sweden</option>
+           <option defaultValue="CH">Switzerland</option>
+           <option defaultValue="SY">Syrian Arab Republic</option>
+           <option defaultValue="TW">Taiwan, Province of China</option>
+           <option defaultValue="TJ">Tajikistan</option>
+           <option defaultValue="TZ">Tanzania, United Republic of</option>
+           <option defaultValue="TH">Thailand</option>
+           <option defaultValue="TG">Togo</option>
+           <option defaultValue="TK">Tokelau</option>
+           <option defaultValue="TO">Tonga</option>
+           <option defaultValue="TT">Trinidad and Tobago</option>
+           <option defaultValue="TN">Tunisia</option>
+           <option defaultValue="TR">Turkey</option>
+           <option defaultValue="TM">Turkmenistan</option>
+           <option defaultValue="TC">Turks and Caicos Islands</option>
+           <option defaultValue="TV">Tuvalu</option>
+           <option defaultValue="UG">Uganda</option>
+           <option defaultValue="UA">Ukraine</option>
+           <option defaultValue="AE">United Arab Emirates</option>
+           <option defaultValue="GB">United Kingdom</option>
+           <option defaultValue="US">United States</option>
+           <option defaultValue="UM">United States Minor Outlying Islands</option>
+           <option defaultValue="UY">Uruguay</option>
+           <option defaultValue="UZ">Uzbekistan</option>
+           <option defaultValue="VU">Vanuatu</option>
+           <option defaultValue="VE">Venezuela</option>
+           <option defaultValue="VN">Viet Nam</option>
+           <option defaultValue="VG">Virgin Islands (British)</option>
+           <option defaultValue="VI">Virgin Islands (U.S.)</option>
+           <option defaultValue="WF">Wallis and Futuna Islands</option>
+           <option defaultValue="EH">Western Sahara</option>
+           <option defaultValue="YE">Yemen</option>
+           <option defaultValue="ZM">Zambia</option>
+           <option defaultValue="ZW">Zimbabwe</option>
           </select>
          </div>
         </div>
@@ -476,64 +476,64 @@ export default  class Advance extends Component {
           <select  className="form-control select2">
            <option>Select</option>
            <optgroup label="Alaskan/Hawaiian Time Zone">
-            <option value="AK">Alaska</option>
-            <option value="HI">Hawaii</option>
+            <option defaultValue="AK">Alaska</option>
+            <option defaultValue="HI">Hawaii</option>
            </optgroup>
            <optgroup label="Pacific Time Zone">
-            <option value="CA">California</option>
-            <option value="NV">Nevada</option>
-            <option value="OR">Oregon</option>
-            <option value="WA">Washington</option>
+            <option defaultValue="CA">California</option>
+            <option defaultValue="NV">Nevada</option>
+            <option defaultValue="OR">Oregon</option>
+            <option defaultValue="WA">Washington</option>
            </optgroup>
            <optgroup label="Mountain Time Zone">
-            <option value="AZ">Arizona</option>
-            <option value="CO">Colorado</option>
-            <option value="ID">Idaho</option>
-            <option value="MT">Montana</option>
-            <option value="NE">Nebraska</option>
-            <option value="NM">New Mexico</option>
-            <option value="ND">North Dakota</option>
-            <option value="UT">Utah</option>
-            <option value="WY">Wyoming</option>
+            <option defaultValue="AZ">Arizona</option>
+            <option defaultValue="CO">Colorado</option>
+            <option defaultValue="ID">Idaho</option>
+            <option defaultValue="MT">Montana</option>
+            <option defaultValue="NE">Nebraska</option>
+            <option defaultValue="NM">New Mexico</option>
+            <option defaultValue="ND">North Dakota</option>
+            <option defaultValue="UT">Utah</option>
+            <option defaultValue="WY">Wyoming</option>
            </optgroup>
            <optgroup label="Central Time Zone">
-            <option value="AL">Alabama</option>
-            <option value="AR">Arkansas</option>
-            <option value="IL">Illinois</option>
-            <option value="IA">Iowa</option>
-            <option value="KS">Kansas</option>
-            <option value="KY">Kentucky</option>
-            <option value="LA">Louisiana</option>
-            <option value="MN">Minnesota</option>
-            <option value="MS">Mississippi</option>
-            <option value="MO">Missouri</option>
-            <option value="OK">Oklahoma</option>
-            <option value="SD">South Dakota</option>
-            <option value="TX">Texas</option>
-            <option value="TN">Tennessee</option>
-            <option value="WI">Wisconsin</option>
+            <option defaultValue="AL">Alabama</option>
+            <option defaultValue="AR">Arkansas</option>
+            <option defaultValue="IL">Illinois</option>
+            <option defaultValue="IA">Iowa</option>
+            <option defaultValue="KS">Kansas</option>
+            <option defaultValue="KY">Kentucky</option>
+            <option defaultValue="LA">Louisiana</option>
+            <option defaultValue="MN">Minnesota</option>
+            <option defaultValue="MS">Mississippi</option>
+            <option defaultValue="MO">Missouri</option>
+            <option defaultValue="OK">Oklahoma</option>
+            <option defaultValue="SD">South Dakota</option>
+            <option defaultValue="TX">Texas</option>
+            <option defaultValue="TN">Tennessee</option>
+            <option defaultValue="WI">Wisconsin</option>
            </optgroup>
            <optgroup label="Eastern Time Zone">
-            <option value="CT">Connecticut</option>
-            <option value="DE">Delaware</option>
-            <option value="FL">Florida</option>
-            <option value="GA">Georgia</option>
-            <option value="IN">Indiana</option>
-            <option value="ME">Maine</option>
-            <option value="MD">Maryland</option>
-            <option value="MA">Massachusetts</option>
-            <option value="MI">Michigan</option>
-            <option value="NH">New Hampshire</option>
-            <option value="NJ">New Jersey</option>
-            <option value="NY">New York</option>
-            <option value="NC">North Carolina</option>
-            <option value="OH">Ohio</option>
-            <option value="PA">Pennsylvania</option>
-            <option value="RI">Rhode Island</option>
-            <option value="SC">South Carolina</option>
-            <option value="VT">Vermont</option>
-            <option value="VA">Virginia</option>
-            <option value="WV">West Virginia</option>
+            <option defaultValue="CT">Connecticut</option>
+            <option defaultValue="DE">Delaware</option>
+            <option defaultValue="FL">Florida</option>
+            <option defaultValue="GA">Georgia</option>
+            <option defaultValue="IN">Indiana</option>
+            <option defaultValue="ME">Maine</option>
+            <option defaultValue="MD">Maryland</option>
+            <option defaultValue="MA">Massachusetts</option>
+            <option defaultValue="MI">Michigan</option>
+            <option defaultValue="NH">New Hampshire</option>
+            <option defaultValue="NJ">New Jersey</option>
+            <option defaultValue="NY">New York</option>
+            <option defaultValue="NC">North Carolina</option>
+            <option defaultValue="OH">Ohio</option>
+            <option defaultValue="PA">Pennsylvania</option>
+            <option defaultValue="RI">Rhode Island</option>
+            <option defaultValue="SC">South Carolina</option>
+            <option defaultValue="VT">Vermont</option>
+            <option defaultValue="VA">Virginia</option>
+            <option defaultValue="WV">West Virginia</option>
            </optgroup>
           </select>
 
@@ -541,64 +541,64 @@ export default  class Advance extends Component {
 
           <select  className="select2 select2-multiple" multiple="multiple" multiple data-placeholder="Choose ...">
            <optgroup label="Alaskan/Hawaiian Time Zone">
-            <option value="AK">Alaska</option>
-            <option value="HI">Hawaii</option>
+            <option defaultValue="AK">Alaska</option>
+            <option defaultValue="HI">Hawaii</option>
            </optgroup>
            <optgroup label="Pacific Time Zone">
-            <option value="CA">California</option>
-            <option value="NV">Nevada</option>
-            <option value="OR">Oregon</option>
-            <option value="WA">Washington</option>
+            <option defaultValue="CA">California</option>
+            <option defaultValue="NV">Nevada</option>
+            <option defaultValue="OR">Oregon</option>
+            <option defaultValue="WA">Washington</option>
            </optgroup>
            <optgroup label="Mountain Time Zone">
-            <option value="AZ">Arizona</option>
-            <option value="CO">Colorado</option>
-            <option value="ID">Idaho</option>
-            <option value="MT">Montana</option>
-            <option value="NE">Nebraska</option>
-            <option value="NM">New Mexico</option>
-            <option value="ND">North Dakota</option>
-            <option value="UT">Utah</option>
-            <option value="WY">Wyoming</option>
+            <option defaultValue="AZ">Arizona</option>
+            <option defaultValue="CO">Colorado</option>
+            <option defaultValue="ID">Idaho</option>
+            <option defaultValue="MT">Montana</option>
+            <option defaultValue="NE">Nebraska</option>
+            <option defaultValue="NM">New Mexico</option>
+            <option defaultValue="ND">North Dakota</option>
+            <option defaultValue="UT">Utah</option>
+            <option defaultValue="WY">Wyoming</option>
            </optgroup>
            <optgroup label="Central Time Zone">
-            <option value="AL">Alabama</option>
-            <option value="AR">Arkansas</option>
-            <option value="IL">Illinois</option>
-            <option value="IA">Iowa</option>
-            <option value="KS">Kansas</option>
-            <option value="KY">Kentucky</option>
-            <option value="LA">Louisiana</option>
-            <option value="MN">Minnesota</option>
-            <option value="MS">Mississippi</option>
-            <option value="MO">Missouri</option>
-            <option value="OK">Oklahoma</option>
-            <option value="SD">South Dakota</option>
-            <option value="TX">Texas</option>
-            <option value="TN">Tennessee</option>
-            <option value="WI">Wisconsin</option>
+            <option defaultValue="AL">Alabama</option>
+            <option defaultValue="AR">Arkansas</option>
+            <option defaultValue="IL">Illinois</option>
+            <option defaultValue="IA">Iowa</option>
+            <option defaultValue="KS">Kansas</option>
+            <option defaultValue="KY">Kentucky</option>
+            <option defaultValue="LA">Louisiana</option>
+            <option defaultValue="MN">Minnesota</option>
+            <option defaultValue="MS">Mississippi</option>
+            <option defaultValue="MO">Missouri</option>
+            <option defaultValue="OK">Oklahoma</option>
+            <option defaultValue="SD">South Dakota</option>
+            <option defaultValue="TX">Texas</option>
+            <option defaultValue="TN">Tennessee</option>
+            <option defaultValue="WI">Wisconsin</option>
            </optgroup>
            <optgroup label="Eastern Time Zone">
-            <option value="CT">Connecticut</option>
-            <option value="DE">Delaware</option>
-            <option value="FL">Florida</option>
-            <option value="GA">Georgia</option>
-            <option value="IN">Indiana</option>
-            <option value="ME">Maine</option>
-            <option value="MD">Maryland</option>
-            <option value="MA">Massachusetts</option>
-            <option value="MI">Michigan</option>
-            <option value="NH">New Hampshire</option>
-            <option value="NJ">New Jersey</option>
-            <option value="NY">New York</option>
-            <option value="NC">North Carolina</option>
-            <option value="OH">Ohio</option>
-            <option value="PA">Pennsylvania</option>
-            <option value="RI">Rhode Island</option>
-            <option value="SC">South Carolina</option>
-            <option value="VT">Vermont</option>
-            <option value="VA">Virginia</option>
-            <option value="WV">West Virginia</option>
+            <option defaultValue="CT">Connecticut</option>
+            <option defaultValue="DE">Delaware</option>
+            <option defaultValue="FL">Florida</option>
+            <option defaultValue="GA">Georgia</option>
+            <option defaultValue="IN">Indiana</option>
+            <option defaultValue="ME">Maine</option>
+            <option defaultValue="MD">Maryland</option>
+            <option defaultValue="MA">Massachusetts</option>
+            <option defaultValue="MI">Michigan</option>
+            <option defaultValue="NH">New Hampshire</option>
+            <option defaultValue="NJ">New Jersey</option>
+            <option defaultValue="NY">New York</option>
+            <option defaultValue="NC">North Carolina</option>
+            <option defaultValue="OH">Ohio</option>
+            <option defaultValue="PA">Pennsylvania</option>
+            <option defaultValue="RI">Rhode Island</option>
+            <option defaultValue="SC">South Carolina</option>
+            <option defaultValue="VT">Vermont</option>
+            <option defaultValue="VA">Virginia</option>
+            <option defaultValue="WV">West Virginia</option>
            </optgroup>
           </select>
 
@@ -606,64 +606,64 @@ export default  class Advance extends Component {
 
           <select  className="select2-limiting" multiple="multiple">
            <optgroup label="Alaskan/Hawaiian Time Zone">
-            <option value="AK">Alaska</option>
-            <option value="HI">Hawaii</option>
+            <option defaultValue="AK">Alaska</option>
+            <option defaultValue="HI">Hawaii</option>
            </optgroup>
            <optgroup label="Pacific Time Zone">
-            <option value="CA">California</option>
-            <option value="NV">Nevada</option>
-            <option value="OR">Oregon</option>
-            <option value="WA">Washington</option>
+            <option defaultValue="CA">California</option>
+            <option defaultValue="NV">Nevada</option>
+            <option defaultValue="OR">Oregon</option>
+            <option defaultValue="WA">Washington</option>
            </optgroup>
            <optgroup label="Mountain Time Zone">
-            <option value="AZ">Arizona</option>
-            <option value="CO">Colorado</option>
-            <option value="ID">Idaho</option>
-            <option value="MT">Montana</option>
-            <option value="NE">Nebraska</option>
-            <option value="NM">New Mexico</option>
-            <option value="ND">North Dakota</option>
-            <option value="UT">Utah</option>
-            <option value="WY">Wyoming</option>
+            <option defaultValue="AZ">Arizona</option>
+            <option defaultValue="CO">Colorado</option>
+            <option defaultValue="ID">Idaho</option>
+            <option defaultValue="MT">Montana</option>
+            <option defaultValue="NE">Nebraska</option>
+            <option defaultValue="NM">New Mexico</option>
+            <option defaultValue="ND">North Dakota</option>
+            <option defaultValue="UT">Utah</option>
+            <option defaultValue="WY">Wyoming</option>
            </optgroup>
            <optgroup label="Central Time Zone">
-            <option value="AL">Alabama</option>
-            <option value="AR">Arkansas</option>
-            <option value="IL">Illinois</option>
-            <option value="IA">Iowa</option>
-            <option value="KS">Kansas</option>
-            <option value="KY">Kentucky</option>
-            <option value="LA">Louisiana</option>
-            <option value="MN">Minnesota</option>
-            <option value="MS">Mississippi</option>
-            <option value="MO">Missouri</option>
-            <option value="OK">Oklahoma</option>
-            <option value="SD">South Dakota</option>
-            <option value="TX">Texas</option>
-            <option value="TN">Tennessee</option>
-            <option value="WI">Wisconsin</option>
+            <option defaultValue="AL">Alabama</option>
+            <option defaultValue="AR">Arkansas</option>
+            <option defaultValue="IL">Illinois</option>
+            <option defaultValue="IA">Iowa</option>
+            <option defaultValue="KS">Kansas</option>
+            <option defaultValue="KY">Kentucky</option>
+            <option defaultValue="LA">Louisiana</option>
+            <option defaultValue="MN">Minnesota</option>
+            <option defaultValue="MS">Mississippi</option>
+            <option defaultValue="MO">Missouri</option>
+            <option defaultValue="OK">Oklahoma</option>
+            <option defaultValue="SD">South Dakota</option>
+            <option defaultValue="TX">Texas</option>
+            <option defaultValue="TN">Tennessee</option>
+            <option defaultValue="WI">Wisconsin</option>
            </optgroup>
            <optgroup label="Eastern Time Zone">
-            <option value="CT">Connecticut</option>
-            <option value="DE">Delaware</option>
-            <option value="FL">Florida</option>
-            <option value="GA">Georgia</option>
-            <option value="IN">Indiana</option>
-            <option value="ME">Maine</option>
-            <option value="MD">Maryland</option>
-            <option value="MA">Massachusetts</option>
-            <option value="MI">Michigan</option>
-            <option value="NH">New Hampshire</option>
-            <option value="NJ">New Jersey</option>
-            <option value="NY">New York</option>
-            <option value="NC">North Carolina</option>
-            <option value="OH">Ohio</option>
-            <option value="PA">Pennsylvania</option>
-            <option value="RI">Rhode Island</option>
-            <option value="SC">South Carolina</option>
-            <option value="VT">Vermont</option>
-            <option value="VA">Virginia</option>
-            <option value="WV">West Virginia</option>
+            <option defaultValue="CT">Connecticut</option>
+            <option defaultValue="DE">Delaware</option>
+            <option defaultValue="FL">Florida</option>
+            <option defaultValue="GA">Georgia</option>
+            <option defaultValue="IN">Indiana</option>
+            <option defaultValue="ME">Maine</option>
+            <option defaultValue="MD">Maryland</option>
+            <option defaultValue="MA">Massachusetts</option>
+            <option defaultValue="MI">Michigan</option>
+            <option defaultValue="NH">New Hampshire</option>
+            <option defaultValue="NJ">New Jersey</option>
+            <option defaultValue="NY">New York</option>
+            <option defaultValue="NC">North Carolina</option>
+            <option defaultValue="OH">Ohio</option>
+            <option defaultValue="PA">Pennsylvania</option>
+            <option defaultValue="RI">Rhode Island</option>
+            <option defaultValue="SC">South Carolina</option>
+            <option defaultValue="VT">Vermont</option>
+            <option defaultValue="VA">Virginia</option>
+            <option defaultValue="WV">West Virginia</option>
            </optgroup>
           </select>
          </div>
@@ -806,19 +806,19 @@ export default  class Advance extends Component {
              <form>
               <div  className="form-group">
                <label  className="control-label">Vertical button alignment</label>
-               <input  className="vertical-spin" type="text" value="" name="vertical-spin" />
+               <input  className="vertical-spin" type="text" defaultValue="" name="vertical-spin" />
               </div>
               <div  className="form-group">
                <label  className="control-label">Using data attributes</label>
-               <input id="demo0" type="text" value="55" name="demo0" data-bts-min="0" data-bts-max="100" data-bts-init-val="" data-bts-step="1" data-bts-decimal="0" data-bts-step-interval="100" data-bts-force-step-divisibility="round" data-bts-step-interval-delay="500" data-bts-prefix="" data-bts-postfix="" data-bts-prefix-extra- className="" data-bts-postfix-extra- className="" data-bts-booster="true" data-bts-boostat="10" data-bts-max-boosted-step="false" data-bts-mousewheel="true" data-bts-button-down- className="btn btn-default" data-bts-button-up- className="btn btn-default" />
+               <input id="demo0" type="text" defaultValue="55" name="demo0" data-bts-min="0" data-bts-max="100" data-bts-init-val="" data-bts-step="1" data-bts-decimal="0" data-bts-step-interval="100" data-bts-force-step-divisibility="round" data-bts-step-interval-delay="500" data-bts-prefix="" data-bts-postfix="" data-bts-prefix-extra- className="" data-bts-postfix-extra- className="" data-bts-booster="true" data-bts-boostat="10" data-bts-max-boosted-step="false" data-bts-mousewheel="true" data-bts-button-down- className="btn btn-default" data-bts-button-up- className="btn btn-default" />
               </div>
               <div  className="form-group">
                <label  className="control-label">Example with postfix (large)</label>
-               <input id="demo1" type="text" value="55" name="demo1" />
+               <input id="demo1" type="text" defaultValue="55" name="demo1" />
               </div>
               <div  className="form-group mb-0">
                <label  className="control-label">With prefix </label>
-               <input id="demo2" type="text" value="0" name="demo2"  className=" form-control" />
+               <input id="demo2" type="text" defaultValue="0" name="demo2"  className=" form-control" />
               </div>
 
              </form>
@@ -831,20 +831,20 @@ export default  class Advance extends Component {
 
               <div  className="form-group">
                <label  className="control-label">Init with empty value:</label>
-               <input id="demo3" type="text" value="" name="demo3" />
+               <input id="demo3" type="text" defaultValue="" name="demo3" />
               </div>
               <div  className="form-group">
                <label  className="control-label">Value attribute is not set (applying settings.initval)</label>
-               <input id="demo3_21" type="text" value="" name="demo3_21" />
+               <input id="demo3_21" type="text" defaultValue="" name="demo3_21" />
               </div>
               <div  className="form-group">
                <label  className="control-label">Value is set explicitly to 33 (skipping settings.initval) </label>
-               <input id="demo3_22" type="text" value="33" name="demo3_22" />
+               <input id="demo3_22" type="text" defaultValue="33" name="demo3_22" />
               </div>
               <div  className="form-group mb-0">
                <label  className="control-label">Button group</label>
                <div  className="input-group">
-                <input id="demo5" type="text"  className="form-control" name="demo5" value="50" />
+                <input id="demo5" type="text"  className="form-control" name="demo5" defaultValue="50" />
                 <div  className="input-group-append">
                  <button type="button"  className="btn btn-success dropdown-toggle" data-toggle="dropdown">
                   <i  className="mdi mdi-chevron-down"></i>
@@ -951,16 +951,16 @@ export default  class Advance extends Component {
            <form action="#">
             <div  className="form-group">
              <label>Default</label>
-             <input type="text"  className="colorpicker-default form-control" value="#8fff00" />
+             <input type="text"  className="colorpicker-default form-control" defaultValue="#8fff00" />
             </div>
             <div  className="form-group">
              <label>RGBA</label>
-             <input type="text"  className="colorpicker-rgba form-control" value="rgb(0,194,255,0.78)" data-color-format="rgba" />
+             <input type="text"  className="colorpicker-rgba form-control" defaultValue="rgb(0,194,255,0.78)" data-color-format="rgba" />
             </div>
             <div  className="form-group mb-0">
              <label>As Component</label>
              <div data-color-format="rgb" data-color="rgb(255, 146, 180)"  className="colorpicker-default input-group">
-              <input type="text" readonly="readonly" value=""  className="form-control" />
+              <input type="text" readonly="readonly" defaultValue=""  className="form-control" />
               <span  className="input-group-append add-on">
                <button  className="btn btn-light" type="button">
                 <i style={{backgroundColor: "rgb(124, 66, 84)" ,marginTop: "2px"}}></i>
@@ -1106,19 +1106,19 @@ export default  class Advance extends Component {
               <div  className="form-group row">
                <label  className="col-lg-3 col-form-label">Date Range Pick</label>
                <div  className="col-lg-9">
-                <input  className="form-control input-daterange-datepicker" type="text" name="daterange" value="01/01/2015 - 01/31/2015" />
+                <input  className="form-control input-daterange-datepicker" type="text" name="daterange" defaultValue="01/01/2015 - 01/31/2015" />
                </div>
               </div>
               <div  className="form-group row">
                <label  className="col-lg-3 col-form-label">Date Range With Time</label>
                <div  className="col-lg-9">
-                <input type="text"  className="form-control input-daterange-timepicker" name="daterange" value="01/01/2015 1:30 PM - 01/01/2015 2:00 PM" />
+                <input type="text"  className="form-control input-daterange-timepicker" name="daterange" defaultValue="01/01/2015 1:30 PM - 01/01/2015 2:00 PM" />
                </div>
               </div>
               <div  className="form-group row mb-0">
                <label  className="col-lg-3 col-form-label">Limit Selectable Dates</label>
                <div  className="col-lg-9">
-                <input  className="form-control input-limit-datepicker" type="text" name="daterange" value="06/01/2015 - 06/07/2015" />
+                <input  className="form-control input-limit-datepicker" type="text" name="daterange" defaultValue="06/01/2015 - 06/07/2015" />
                </div>
               </div>
              </form>

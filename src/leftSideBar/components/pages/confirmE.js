@@ -30,7 +30,7 @@ export default class Confirme extends Component {
                                     Please check for an email from company and click on the included link to
                                     reset your password. </p>
 
-          <Link to="/dashboard" className="btn btn-block btn-pink waves-effect waves-light mt-3">Back to Home</Link>
+          <Link to="/" className="btn btn-block btn-pink waves-effect waves-light mt-3">Back to Home</Link>
 
          </div>
         </div>

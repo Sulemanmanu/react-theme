@@ -27,7 +27,7 @@ export default class Error404 extends Component {
            the best of us. You might want to check your internet connection. Here's a little tip that might
                                             help you get back on track.</p>
 
-           <Link to="/dashboard" className="btn btn-danger waves-effect waves-light"><i className="fas fa-home mr-1"></i> Back to Home</Link>
+           <Link to="/" className="btn btn-danger waves-effect waves-light"><i className="fas fa-home mr-1"></i> Back to Home</Link>
           </div>
 
 

@@ -523,7 +523,7 @@ export default class Mail extends Component {
 
     {/* <!-- Modal --> */}
     <div id="custom-modal" className="modal-demo text-left">
-     <button type="button" className="close" onclick="Custombox.modal.close();">
+     <button type="button" className="close" onClick="Custombox.modal.close();">
       <span>&times;</span><span className="sr-only">Close</span>
      </button>
      <h5 className="custom-modal-title">Compose Mail</h5>

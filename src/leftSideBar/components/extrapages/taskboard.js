@@ -43,7 +43,7 @@ export default class Taskboard extends Component {
             <div className="kanban-box">
              <div className="checkbox-wrapper float-left">
               <div className="checkbox checkbox-success checkbox-single">
-               <input type="checkbox" id="singleCheckbox2" value="option2"
+               <input type="checkbox" id="singleCheckbox2" defaultValue="option2"
                 aria-label="Single checkbox Two" />
                <label></label>
               </div>
@@ -81,7 +81,7 @@ export default class Taskboard extends Component {
             <div className="kanban-box">
              <div className="checkbox-wrapper float-left">
               <div className="checkbox checkbox-success checkbox-single">
-               <input type="checkbox" id="singleCheckbox3" value="option3"
+               <input type="checkbox" id="singleCheckbox3" defaultValue="option3"
                 aria-label="Single checkbox Two" />
                <label></label>
               </div>
@@ -119,7 +119,7 @@ export default class Taskboard extends Component {
             <div className="kanban-box">
              <div className="checkbox-wrapper float-left">
               <div className="checkbox checkbox-success checkbox-single">
-               <input type="checkbox" id="singleCheckbox4" value="option4"
+               <input type="checkbox" id="singleCheckbox4" defaultValue="option4"
                 aria-label="Single checkbox Two" />
                <label></label>
               </div>
@@ -157,7 +157,7 @@ export default class Taskboard extends Component {
             <div className="kanban-box">
              <div className="checkbox-wrapper float-left">
               <div className="checkbox checkbox-success checkbox-single">
-               <input type="checkbox" id="singleCheckbox5" value="option2"
+               <input type="checkbox" id="singleCheckbox5" defaultValue="option2"
                 aria-label="Single checkbox Two" />
                <label></label>
               </div>
@@ -228,7 +228,7 @@ export default class Taskboard extends Component {
             <div className="kanban-box">
              <div className="checkbox-wrapper float-left">
               <div className="checkbox checkbox-success checkbox-single">
-               <input type="checkbox" id="singleCheckbox6" value="option6"
+               <input type="checkbox" id="singleCheckbox6" defaultValue="option6"
                 aria-label="Single checkbox Two" />
                <label></label>
               </div>
@@ -266,7 +266,7 @@ export default class Taskboard extends Component {
             <div className="kanban-box">
              <div className="checkbox-wrapper float-left">
               <div className="checkbox checkbox-success checkbox-single">
-               <input type="checkbox" id="singleCheckbox7" value="option7"
+               <input type="checkbox" id="singleCheckbox7" defaultValue="option7"
                 aria-label="Single checkbox Two" />
                <label></label>
               </div>
@@ -305,7 +305,7 @@ export default class Taskboard extends Component {
             <div className="kanban-box">
              <div className="checkbox-wrapper float-left">
               <div className="checkbox checkbox-success checkbox-single">
-               <input type="checkbox" id="singleCheckbox8" value="option8"
+               <input type="checkbox" id="singleCheckbox8" defaultValue="option8"
                 aria-label="Single checkbox Two" />
                <label></label>
               </div>
@@ -375,7 +375,7 @@ export default class Taskboard extends Component {
             <div className="kanban-box">
              <div className="checkbox-wrapper float-left">
               <div className="checkbox checkbox-success checkbox-single">
-               <input type="checkbox" id="singleCheckbox10" value="option10"
+               <input type="checkbox" id="singleCheckbox10" defaultValue="option10"
                 aria-label="Single checkbox Two" />
                <label></label>
               </div>
@@ -413,7 +413,7 @@ export default class Taskboard extends Component {
             <div className="kanban-box">
              <div className="checkbox-wrapper float-left">
               <div className="checkbox checkbox-success checkbox-single">
-               <input type="checkbox" id="singleCheckbox11" value="option11"
+               <input type="checkbox" id="singleCheckbox11" defaultValue="option11"
                 aria-label="Single checkbox Two" />
                <label></label>
               </div>
@@ -452,7 +452,7 @@ export default class Taskboard extends Component {
             <div className="kanban-box">
              <div className="checkbox-wrapper float-left">
               <div className="checkbox checkbox-success checkbox-single float-left">
-               <input type="checkbox" id="singleCheckbox12" value="option12"
+               <input type="checkbox" id="singleCheckbox12" defaultValue="option12"
                 aria-label="Single checkbox Two" />
                <label></label>
               </div>
@@ -490,7 +490,7 @@ export default class Taskboard extends Component {
             <div className="kanban-box">
              <div className="checkbox-wrapper float-left">
               <div className="checkbox checkbox-success checkbox-single">
-               <input type="checkbox" id="singleCheckbox13" value="option13"
+               <input type="checkbox" id="singleCheckbox13" defaultValue="option13"
                 aria-label="Single checkbox Two" />
                <label></label>
               </div>

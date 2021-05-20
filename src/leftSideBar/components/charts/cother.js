@@ -195,21 +195,21 @@ export default class Cother extends Component {
             <div className="col-md-6 col-xl-3 text-center">
              <div className="mt-3" dir="ltr">
               <input data-plugin="knob" data-width="150" data-height="150"
-               data-fgColor="#71b6f9" data-displayInput={false} value="35" />
+               data-fgColor="#71b6f9" data-displayInput={false} defaultValue="35" />
               <h5 className="text-muted">Disable display input</h5>
              </div>
             </div>
             <div className="col-md-6 col-xl-3 text-center">
              <div className="mt-3" dir="ltr">
               <input data-plugin="knob" data-width="150" data-height="150" data-cursor={true}
-               data-fgColor="#10c469" value="29" />
+               data-fgColor="#10c469" defaultValue="29" />
               <h5 className="text-muted">Cursor mode</h5>
              </div>
             </div>
             <div className="col-md-6 col-xl-3 text-center">
              <div className="mt-3" dir="ltr">
               <input data-plugin="knob" data-width="150" data-height="150" data-min="-100"
-               data-fgColor="#f9c851" data-displayPrevious={true} value="44" />
+               data-fgColor="#f9c851" data-displayPrevious={true} defaultValue="44" />
               <h5 className="text-muted">Display previous value</h5>
              </div>
             </div>
@@ -217,7 +217,7 @@ export default class Cother extends Component {
              <div className="mt-3" dir="ltr">
               <input data-plugin="knob" data-width="150" data-height="150" data-min="-100"
                data-fgColor="#35b8e0" data-displayPrevious={true} data-angleOffset="-125"
-                                                       data-angleArc="250" value="44"/>
+                                                       data-angleArc="250" defaultValue="44"/>
                                                 <h5 className="text-muted">Angle offset and arc</h5>
              </div>
             </div>
@@ -228,7 +228,7 @@ export default class Cother extends Component {
              <div className="mt-3" dir="ltr">
               <input data-plugin="knob" data-width="150" data-height="150"
                data-angleOffset="90" data-linecap="round" data-fgColor="#ff8acc"
-               value="35" />
+               defaultValue="35" />
               <h5 className="text-muted">Angle offset</h5>
              </div>
             </div>
@@ -236,14 +236,14 @@ export default class Cother extends Component {
              <div className="mt-3" dir="ltr">
               <input data-plugin="knob" data-width="150" data-height="150" data-min="-15000"
                data-displayPrevious={true} data-max="15000" data-step="1000"
-               value="-11000" data-fgColor="#5b69bc" />
+               defaultValue="-11000" data-fgColor="#5b69bc" />
               <h5 className="text-muted">5-digit values, step 1000</h5>
              </div>
             </div>
             <div className="col-md-6 col-xl-3 text-center">
              <div className="mt-3" dir="ltr">
               <input data-plugin="knob" data-width="150" data-height="150" data-linecap="round"
-               data-fgColor="#435966" value="80" data-skin="tron" data-angleOffset="180"
+               data-fgColor="#435966" defaultValue="80" data-skin="tron" data-angleOffset="180"
                data-readOnly={true} data-thickness=".1" />
               <h5 className="text-muted">Readonly</h5>
              </div>
@@ -252,8 +252,8 @@ export default class Cother extends Component {
              <div className="mt-3" dir="ltr">
               <input data-plugin="knob" data-width="150" data-height="150"
                data-displayPrevious={true} data-fgColor="#ff5b5b" data-skin="tron"
-               data-cursor={true} value="75" data-thickness=".2" data-angleOffset="-125"
-                                                       data-angleArc="250" value="44"/>
+               data-cursor={true} defaultValue="75" data-thickness=".2" data-angleOffset="-125"
+                                                       data-angleArc="250" defaultValue="44"/>
                                                 <h5 className="text-muted">Angle offset and arc</h5>
              </div>
             </div>

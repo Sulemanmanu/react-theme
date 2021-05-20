@@ -103,26 +103,26 @@ export default class Checkbox extends Component {
 
            <p className="text-muted font-13 mt-2">Checkboxes without label text <code>.checkbox-single</code></p>
            <div className="checkbox checkbox-single">
-            <input type="checkbox" id="singleCheckbox1" value="option1" aria-label="Single checkbox One" />
+            <input type="checkbox" id="singleCheckbox1" defaultValue="option1" aria-label="Single checkbox One" />
             <label></label>
            </div>
            <div className="checkbox checkbox-primary checkbox-single">
-            <input type="checkbox" id="singleCheckbox2" value="option2" defaultChecked aria-label="Single checkbox Two" />
+            <input type="checkbox" id="singleCheckbox2" defaultValue="option2" defaultChecked aria-label="Single checkbox Two" />
             <label></label>
            </div>
 
 
            <p className="text-muted font-13 mt-2">Inline checkboxes</p>
            <div className="checkbox form-check-inline">
-            <input type="checkbox" id="inlineCheckbox1" value="option1" />
+            <input type="checkbox" id="inlineCheckbox1" defaultValue="option1" />
             <label for="inlineCheckbox1"> Inline One </label>
            </div>
            <div className="checkbox checkbox-success form-check-inline">
-            <input type="checkbox" id="inlineCheckbox2" value="option1" defaultChecked />
+            <input type="checkbox" id="inlineCheckbox2" defaultValue="option1" defaultChecked />
             <label for="inlineCheckbox2"> Inline Two </label>
            </div>
            <div className="checkbox checkbox-pink form-check-inline">
-            <input type="checkbox" id="inlineCheckbox3" value="option1" />
+            <input type="checkbox" id="inlineCheckbox3" defaultValue="option1" />
             <label for="inlineCheckbox3"> Inline Three </label>
            </div>
           </div>
@@ -214,26 +214,26 @@ export default class Checkbox extends Component {
 
            <p className="text-muted font-13 mt-2">Checkboxes without label text <code>.checkbox-single</code></p>
            <div className="checkbox checkbox-single checkbox-circle">
-            <input type="checkbox" id="singleCheckbox11" value="option1" aria-label="Single checkbox One" />
+            <input type="checkbox" id="singleCheckbox11" defaultValue="option1" aria-label="Single checkbox One" />
             <label></label>
            </div>
            <div className="checkbox checkbox-primary checkbox-single checkbox-circle">
-            <input type="checkbox" id="singleCheckbox21" value="option2" defaultChecked aria-label="Single checkbox Two" />
+            <input type="checkbox" id="singleCheckbox21" defaultValue="option2" defaultChecked aria-label="Single checkbox Two" />
             <label></label>
            </div>
 
 
            <p className="text-muted font-13 mt-2">Inline checkboxes</p>
            <div className="checkbox form-check-inline checkbox-circle">
-            <input type="checkbox" id="inlineCheckbox11" value="option1" />
+            <input type="checkbox" id="inlineCheckbox11" defaultValue="option1" />
             <label for="inlineCheckbox11"> Inline One </label>
            </div>
            <div className="checkbox checkbox-success form-check-inline checkbox-circle">
-            <input type="checkbox" id="inlineCheckbox21" value="option1" defaultChecked />
+            <input type="checkbox" id="inlineCheckbox21" defaultValue="option1" defaultChecked />
             <label for="inlineCheckbox21"> Inline Two </label>
            </div>
            <div className="checkbox checkbox-pink form-check-inline checkbox-circle">
-            <input type="checkbox" id="inlineCheckbox31" value="option1" />
+            <input type="checkbox" id="inlineCheckbox31" defaultValue="option1" />
             <label for="inlineCheckbox31"> Inline Three </label>
            </div>
 
@@ -337,49 +337,49 @@ export default class Checkbox extends Component {
            <div className="row">
             <div className="col-sm-6">
              <div className="radio">
-              <input type="radio" name="radio" id="radio1" value="option1" defaultChecked />
+              <input type="radio" name="radio" id="radio1" defaultValue="option1" defaultChecked />
               <label for="radio1">
                Default
                                                 </label>
              </div>
              <div className="radio radio-primary">
-              <input type="radio" name="radio" id="radio3" value="option3" />
+              <input type="radio" name="radio" id="radio3" defaultValue="option3" />
               <label for="radio3">
                Primary
                                                 </label>
              </div>
              <div className="radio radio-success">
-              <input type="radio" name="radio" id="radio4" value="option4" />
+              <input type="radio" name="radio" id="radio4" defaultValue="option4" />
               <label for="radio4">
                Success
                                                 </label>
              </div>
              <div className="radio radio-info">
-              <input type="radio" name="radio" id="radio5" value="option5" />
+              <input type="radio" name="radio" id="radio5" defaultValue="option5" />
               <label for="radio5">
                Info
                                                 </label>
              </div>
              <div className="radio radio-danger">
-              <input type="radio" name="radio" id="radio6" value="option6" />
+              <input type="radio" name="radio" id="radio6" defaultValue="option6" />
               <label for="radio6">
                Danger
                                                 </label>
              </div>
              <div className="radio radio-warning">
-              <input type="radio" name="radio" id="radio7" value="option7" />
+              <input type="radio" name="radio" id="radio7" defaultValue="option7" />
               <label for="radio7">
                Warning
                                                 </label>
              </div>
              <div className="radio radio-purple">
-              <input type="radio" name="radio" id="radio8" value="option8" />
+              <input type="radio" name="radio" id="radio8" defaultValue="option8" />
               <label for="radio8">
                Purple
                                                 </label>
              </div>
              <div className="radio radio-pink">
-              <input type="radio" name="radio" id="radio9" value="option9" />
+              <input type="radio" name="radio" id="radio9" defaultValue="option9" />
               <label for="radio9">
                Pink
                                                 </label>
@@ -389,49 +389,49 @@ export default class Checkbox extends Component {
 
             <div className="col-sm-6">
              <div className="radio">
-              <input type="radio" name="radio1" id="radio11" value="option1" defaultChecked />
+              <input type="radio" name="radio1" id="radio11" defaultValue="option1" defaultChecked />
               <label for="radio11">
                Default
                                                 </label>
              </div>
              <div className="radio radio-primary">
-              <input type="radio" name="radio3" id="radio13" value="option3" />
+              <input type="radio" name="radio3" id="radio13" defaultValue="option3" />
               <label for="radio13">
                Primary
                                                 </label>
              </div>
              <div className="radio radio-success">
-              <input type="radio" name="radio4" id="radio14" value="option4" defaultChecked />
+              <input type="radio" name="radio4" id="radio14" defaultValue="option4" defaultChecked />
               <label for="radio14">
                Success
                                                 </label>
              </div>
              <div className="radio radio-info">
-              <input type="radio" name="radio5" id="radio15" value="option5" defaultChecked />
+              <input type="radio" name="radio5" id="radio15" defaultValue="option5" defaultChecked />
               <label for="radio15">
                Info
                                                 </label>
              </div>
              <div className="radio radio-danger">
-              <input type="radio" name="radio6" id="radio16" value="option6" />
+              <input type="radio" name="radio6" id="radio16" defaultValue="option6" />
               <label for="radio16">
                Danger
                                                 </label>
              </div>
              <div className="radio radio-warning">
-              <input type="radio" name="radio7" id="radio17" value="option7" defaultChecked />
+              <input type="radio" name="radio7" id="radio17" defaultValue="option7" defaultChecked />
               <label for="radio17">
                Warning
                                                 </label>
              </div>
              <div className="radio radio-purple">
-              <input type="radio" name="radio8" id="radio18" value="option8" />
+              <input type="radio" name="radio8" id="radio18" defaultValue="option8" />
               <label for="radio18">
                Purple
                                                 </label>
              </div>
              <div className="radio radio-pink">
-              <input type="radio" name="radio9" id="radio19" value="option9" defaultChecked />
+              <input type="radio" name="radio9" id="radio19" defaultValue="option9" defaultChecked />
               <label for="radio19">
                Pink
                                                 </label>
@@ -444,22 +444,22 @@ export default class Checkbox extends Component {
 
            <p className="text-muted font-13 mt-2">Radios without label text <code>.radio-single</code></p>
            <div className="radio radio-single">
-            <input type="radio" id="singleRadio1" value="option1.1" name="radioSingle1" aria-label="Single radio One" />
+            <input type="radio" id="singleRadio1" defaultValue="option1.1" name="radioSingle1" aria-label="Single radio One" />
             <label for="singleRadio1"></label>
            </div>
            <div className="radio radio-success radio-single">
-            <input type="radio" id="singleRadio2" value="option2.1" name="radioSingle1" defaultChecked aria-label="Single radio Two" />
+            <input type="radio" id="singleRadio2" defaultValue="option2.1" name="radioSingle1" defaultChecked aria-label="Single radio Two" />
             <label for="singleRadio2"></label>
            </div>
 
 
            <p className="text-muted font-13 mt-2">Inline radios</p>
            <div className="radio radio-info form-check-inline">
-            <input type="radio" id="inlineRadio1" value="option1" name="radioInline" defaultChecked />
+            <input type="radio" id="inlineRadio1" defaultValue="option1" name="radioInline" defaultChecked />
             <label for="inlineRadio1"> Inline One </label>
            </div>
            <div className="radio form-check-inline">
-            <input type="radio" id="inlineRadio2" value="option2" name="radioInline" defaultChecked />
+            <input type="radio" id="inlineRadio2" defaultValue="option2" name="radioInline" defaultChecked />
             <label for="inlineRadio2"> Inline Two </label>
            </div>
           </div>
@@ -491,19 +491,19 @@ export default class Checkbox extends Component {
                                     </p>
 
            <div className="radio radio-danger">
-            <input type="radio" name="radio31" id="radio51" value="option1" defaultChecked disabled />
+            <input type="radio" name="radio31" id="radio51" defaultValue="option1" defaultChecked disabled />
             <label for="radio51">
              Next
                                         </label>
            </div>
            <div className="radio">
-            <input type="radio" name="radio41" id="radio61" value="option2" defaultChecked disabled />
+            <input type="radio" name="radio41" id="radio61" defaultValue="option2" defaultChecked disabled />
             <label for="radio61">
              One
                                         </label>
            </div>
            <div className="radio radio-pink">
-            <input type="radio" name="radio61" id="radio81" value="option4" defaultChecked disabled />
+            <input type="radio" name="radio61" id="radio81" defaultValue="option4" defaultChecked disabled />
             <label for="radio81">
              One
                                         </label>

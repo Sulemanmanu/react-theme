@@ -25,7 +25,7 @@ export default class Error500 extends Component {
              <h3 className="mt-3 mb-2">Internal Server Error</h3>
              <p className="text-muted mb-3">Why not try refreshing your page? or you can contact <a href="" className="text-dark"><b>Support</b></a></p>
 
-             <Link to="/dashboard" className="btn btn-danger waves-effect waves-light"><i className="fas fa-home mr-1"></i> Back to Home</Link>
+             <Link to="/" className="btn btn-danger waves-effect waves-light"><i className="fas fa-home mr-1"></i> Back to Home</Link>
             </div>
 
 

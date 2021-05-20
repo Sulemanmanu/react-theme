@@ -70,7 +70,7 @@ export default class Taskdetail extends Component {
 
            <div className="task-tags mt-2">
             <h5>Tags</h5>
-            <input type="text" value="Amsterdam,Washington,Sydney" data-role="tagsinput" placeholder="add tags" />
+            <input type="text" defaultValue="Amsterdam,Washington,Sydney" data-role="tagsinput" placeholder="add tags" />
            </div>
 
            <div className="assign-team mt-4">
